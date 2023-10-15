@@ -22,7 +22,16 @@
 .landing-inner form {
 	width: 30%;
 }
-
+@media screen and (max-width: 768px) {
+	.landing-inner form {
+		width: 60%;
+	} 
+}
+@media screen and (max-width: 440px) {
+	.landing-inner form {
+		width: 80%;
+	} 
+}
 .landing-inner h1,
 .landing-inner h4,
 .landing-inner p {
